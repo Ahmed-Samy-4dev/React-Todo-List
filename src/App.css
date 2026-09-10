@@ -1,0 +1,97 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+ul {
+  width: 100%;
+  list-style-type: "👉 ";
+  text-align: start;
+}
+
+.li-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-container li:hover {
+  background-color: rgba(240, 248, 255, 0.205);
+  border: transparent;
+  border-radius: 5px;
+}
+
+.li-container li {
+  cursor: pointer;
+  width: 100%;
+  overflow-wrap: break-word;
+  padding: .3rem .1rem;
+}
+
+.li-container span {
+  cursor: pointer;
+  padding: .2rem .1rem;
+}
+
+.li-container span:hover {
+  background-color: rgba(240, 248, 255, 0.205);
+  border: transparent;
+  border-radius: 3px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.input {
+  display: flex;
+  gap: 1vh;
+}
+
+.input input {
+  border-radius: 4px;
+  border: none;
+  background-color: aliceblue;
+  box-shadow: none;
+  color: black;
+  padding: .2rem;
+}
+
+.input input:focus {
+  outline-width: 1rem;
+  outline-color: aliceblue;
+}
+
+.input input:hover {
+  background-color: rgb(213, 223, 233);
+}
+
+.input button {
+  padding: .15rem .5rem;
+  color: white;
+  background-color: rgba(2, 4, 131, 0.582);
+  border: transparent;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.input button:hover {
+  background-color: rgba(37, 39, 136, 0.699);
+}
+
+.input button:active {
+  border: none;
+  outline: auto;
+  outline-color: whitesmoke;
+  box-shadow: none;
+}
